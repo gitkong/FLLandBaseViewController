@@ -1,0 +1,531 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		118247131D82170D008C0341 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 118247121D82170D008C0341 /* main.m */; };
+		118247161D82170D008C0341 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 118247151D82170D008C0341 /* AppDelegate.m */; };
+		118247191D82170D008C0341 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 118247181D82170D008C0341 /* ViewController.m */; };
+		1182471C1D82170D008C0341 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1182471A1D82170D008C0341 /* Main.storyboard */; };
+		1182471E1D82170D008C0341 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1182471D1D82170D008C0341 /* Assets.xcassets */; };
+		118247211D82170D008C0341 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1182471F1D82170D008C0341 /* LaunchScreen.storyboard */; };
+		1182472C1D82170D008C0341 /* FLLandBaseViewController_OC_Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 1182472B1D82170D008C0341 /* FLLandBaseViewController_OC_Tests.m */; };
+		118247371D82170D008C0341 /* FLLandBaseViewController_OC_UITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 118247361D82170D008C0341 /* FLLandBaseViewController_OC_UITests.m */; };
+		118247461D82173A008C0341 /* FLLandBaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 118247451D82173A008C0341 /* FLLandBaseViewController.m */; };
+		118247491D821818008C0341 /* SecondViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 118247481D821818008C0341 /* SecondViewController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		118247281D82170D008C0341 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 118247061D82170D008C0341 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1182470D1D82170D008C0341;
+			remoteInfo = "FLLandBaseViewController(OC)";
+		};
+		118247331D82170D008C0341 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 118247061D82170D008C0341 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1182470D1D82170D008C0341;
+			remoteInfo = "FLLandBaseViewController(OC)";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		1182470E1D82170D008C0341 /* FLLandBaseViewController(OC).app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "FLLandBaseViewController(OC).app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		118247121D82170D008C0341 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		118247141D82170D008C0341 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		118247151D82170D008C0341 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		118247171D82170D008C0341 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		118247181D82170D008C0341 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		1182471B1D82170D008C0341 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		1182471D1D82170D008C0341 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		118247201D82170D008C0341 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		118247221D82170D008C0341 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		118247271D82170D008C0341 /* FLLandBaseViewController(OC)Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "FLLandBaseViewController(OC)Tests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		1182472B1D82170D008C0341 /* FLLandBaseViewController_OC_Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FLLandBaseViewController_OC_Tests.m; sourceTree = "<group>"; };
+		1182472D1D82170D008C0341 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		118247321D82170D008C0341 /* FLLandBaseViewController(OC)UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "FLLandBaseViewController(OC)UITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		118247361D82170D008C0341 /* FLLandBaseViewController_OC_UITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FLLandBaseViewController_OC_UITests.m; sourceTree = "<group>"; };
+		118247381D82170D008C0341 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		118247441D82173A008C0341 /* FLLandBaseViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FLLandBaseViewController.h; sourceTree = "<group>"; };
+		118247451D82173A008C0341 /* FLLandBaseViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FLLandBaseViewController.m; sourceTree = "<group>"; };
+		118247471D821818008C0341 /* SecondViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SecondViewController.h; sourceTree = "<group>"; };
+		118247481D821818008C0341 /* SecondViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SecondViewController.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1182470B1D82170D008C0341 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		118247241D82170D008C0341 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1182472F1D82170D008C0341 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		118247051D82170D008C0341 = {
+			isa = PBXGroup;
+			children = (
+				118247101D82170D008C0341 /* FLLandBaseViewController(OC) */,
+				1182472A1D82170D008C0341 /* FLLandBaseViewController(OC)Tests */,
+				118247351D82170D008C0341 /* FLLandBaseViewController(OC)UITests */,
+				1182470F1D82170D008C0341 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		1182470F1D82170D008C0341 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1182470E1D82170D008C0341 /* FLLandBaseViewController(OC).app */,
+				118247271D82170D008C0341 /* FLLandBaseViewController(OC)Tests.xctest */,
+				118247321D82170D008C0341 /* FLLandBaseViewController(OC)UITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		118247101D82170D008C0341 /* FLLandBaseViewController(OC) */ = {
+			isa = PBXGroup;
+			children = (
+				118247441D82173A008C0341 /* FLLandBaseViewController.h */,
+				118247451D82173A008C0341 /* FLLandBaseViewController.m */,
+				118247141D82170D008C0341 /* AppDelegate.h */,
+				118247151D82170D008C0341 /* AppDelegate.m */,
+				118247171D82170D008C0341 /* ViewController.h */,
+				118247181D82170D008C0341 /* ViewController.m */,
+				118247471D821818008C0341 /* SecondViewController.h */,
+				118247481D821818008C0341 /* SecondViewController.m */,
+				1182471A1D82170D008C0341 /* Main.storyboard */,
+				1182471D1D82170D008C0341 /* Assets.xcassets */,
+				1182471F1D82170D008C0341 /* LaunchScreen.storyboard */,
+				118247221D82170D008C0341 /* Info.plist */,
+				118247111D82170D008C0341 /* Supporting Files */,
+			);
+			path = "FLLandBaseViewController(OC)";
+			sourceTree = "<group>";
+		};
+		118247111D82170D008C0341 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				118247121D82170D008C0341 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		1182472A1D82170D008C0341 /* FLLandBaseViewController(OC)Tests */ = {
+			isa = PBXGroup;
+			children = (
+				1182472B1D82170D008C0341 /* FLLandBaseViewController_OC_Tests.m */,
+				1182472D1D82170D008C0341 /* Info.plist */,
+			);
+			path = "FLLandBaseViewController(OC)Tests";
+			sourceTree = "<group>";
+		};
+		118247351D82170D008C0341 /* FLLandBaseViewController(OC)UITests */ = {
+			isa = PBXGroup;
+			children = (
+				118247361D82170D008C0341 /* FLLandBaseViewController_OC_UITests.m */,
+				118247381D82170D008C0341 /* Info.plist */,
+			);
+			path = "FLLandBaseViewController(OC)UITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		1182470D1D82170D008C0341 /* FLLandBaseViewController(OC) */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1182473B1D82170D008C0341 /* Build configuration list for PBXNativeTarget "FLLandBaseViewController(OC)" */;
+			buildPhases = (
+				1182470A1D82170D008C0341 /* Sources */,
+				1182470B1D82170D008C0341 /* Frameworks */,
+				1182470C1D82170D008C0341 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "FLLandBaseViewController(OC)";
+			productName = "FLLandBaseViewController(OC)";
+			productReference = 1182470E1D82170D008C0341 /* FLLandBaseViewController(OC).app */;
+			productType = "com.apple.product-type.application";
+		};
+		118247261D82170D008C0341 /* FLLandBaseViewController(OC)Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1182473E1D82170D008C0341 /* Build configuration list for PBXNativeTarget "FLLandBaseViewController(OC)Tests" */;
+			buildPhases = (
+				118247231D82170D008C0341 /* Sources */,
+				118247241D82170D008C0341 /* Frameworks */,
+				118247251D82170D008C0341 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				118247291D82170D008C0341 /* PBXTargetDependency */,
+			);
+			name = "FLLandBaseViewController(OC)Tests";
+			productName = "FLLandBaseViewController(OC)Tests";
+			productReference = 118247271D82170D008C0341 /* FLLandBaseViewController(OC)Tests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		118247311D82170D008C0341 /* FLLandBaseViewController(OC)UITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 118247411D82170D008C0341 /* Build configuration list for PBXNativeTarget "FLLandBaseViewController(OC)UITests" */;
+			buildPhases = (
+				1182472E1D82170D008C0341 /* Sources */,
+				1182472F1D82170D008C0341 /* Frameworks */,
+				118247301D82170D008C0341 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				118247341D82170D008C0341 /* PBXTargetDependency */,
+			);
+			name = "FLLandBaseViewController(OC)UITests";
+			productName = "FLLandBaseViewController(OC)UITests";
+			productReference = 118247321D82170D008C0341 /* FLLandBaseViewController(OC)UITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		118247061D82170D008C0341 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = clarence;
+				TargetAttributes = {
+					1182470D1D82170D008C0341 = {
+						CreatedOnToolsVersion = 7.3;
+					};
+					118247261D82170D008C0341 = {
+						CreatedOnToolsVersion = 7.3;
+						TestTargetID = 1182470D1D82170D008C0341;
+					};
+					118247311D82170D008C0341 = {
+						CreatedOnToolsVersion = 7.3;
+						TestTargetID = 1182470D1D82170D008C0341;
+					};
+				};
+			};
+			buildConfigurationList = 118247091D82170D008C0341 /* Build configuration list for PBXProject "FLLandBaseViewController(OC)" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 118247051D82170D008C0341;
+			productRefGroup = 1182470F1D82170D008C0341 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1182470D1D82170D008C0341 /* FLLandBaseViewController(OC) */,
+				118247261D82170D008C0341 /* FLLandBaseViewController(OC)Tests */,
+				118247311D82170D008C0341 /* FLLandBaseViewController(OC)UITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1182470C1D82170D008C0341 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				118247211D82170D008C0341 /* LaunchScreen.storyboard in Resources */,
+				1182471E1D82170D008C0341 /* Assets.xcassets in Resources */,
+				1182471C1D82170D008C0341 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		118247251D82170D008C0341 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		118247301D82170D008C0341 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1182470A1D82170D008C0341 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				118247491D821818008C0341 /* SecondViewController.m in Sources */,
+				118247461D82173A008C0341 /* FLLandBaseViewController.m in Sources */,
+				118247191D82170D008C0341 /* ViewController.m in Sources */,
+				118247161D82170D008C0341 /* AppDelegate.m in Sources */,
+				118247131D82170D008C0341 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		118247231D82170D008C0341 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1182472C1D82170D008C0341 /* FLLandBaseViewController_OC_Tests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1182472E1D82170D008C0341 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				118247371D82170D008C0341 /* FLLandBaseViewController_OC_UITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		118247291D82170D008C0341 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 1182470D1D82170D008C0341 /* FLLandBaseViewController(OC) */;
+			targetProxy = 118247281D82170D008C0341 /* PBXContainerItemProxy */;
+		};
+		118247341D82170D008C0341 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 1182470D1D82170D008C0341 /* FLLandBaseViewController(OC) */;
+			targetProxy = 118247331D82170D008C0341 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		1182471A1D82170D008C0341 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1182471B1D82170D008C0341 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		1182471F1D82170D008C0341 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				118247201D82170D008C0341 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		118247391D82170D008C0341 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		1182473A1D82170D008C0341 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		1182473C1D82170D008C0341 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "FLLandBaseViewController(OC)/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "clarence.FLLandBaseViewController-OC-";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		1182473D1D82170D008C0341 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "FLLandBaseViewController(OC)/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "clarence.FLLandBaseViewController-OC-";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		1182473F1D82170D008C0341 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "FLLandBaseViewController(OC)Tests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "clarence.FLLandBaseViewController-OC-Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/FLLandBaseViewController(OC).app/FLLandBaseViewController(OC)";
+			};
+			name = Debug;
+		};
+		118247401D82170D008C0341 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "FLLandBaseViewController(OC)Tests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "clarence.FLLandBaseViewController-OC-Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/FLLandBaseViewController(OC).app/FLLandBaseViewController(OC)";
+			};
+			name = Release;
+		};
+		118247421D82170D008C0341 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "FLLandBaseViewController(OC)UITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "clarence.FLLandBaseViewController-OC-UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "FLLandBaseViewController(OC)";
+			};
+			name = Debug;
+		};
+		118247431D82170D008C0341 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "FLLandBaseViewController(OC)UITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "clarence.FLLandBaseViewController-OC-UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "FLLandBaseViewController(OC)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		118247091D82170D008C0341 /* Build configuration list for PBXProject "FLLandBaseViewController(OC)" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				118247391D82170D008C0341 /* Debug */,
+				1182473A1D82170D008C0341 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1182473B1D82170D008C0341 /* Build configuration list for PBXNativeTarget "FLLandBaseViewController(OC)" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1182473C1D82170D008C0341 /* Debug */,
+				1182473D1D82170D008C0341 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		1182473E1D82170D008C0341 /* Build configuration list for PBXNativeTarget "FLLandBaseViewController(OC)Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1182473F1D82170D008C0341 /* Debug */,
+				118247401D82170D008C0341 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		118247411D82170D008C0341 /* Build configuration list for PBXNativeTarget "FLLandBaseViewController(OC)UITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				118247421D82170D008C0341 /* Debug */,
+				118247431D82170D008C0341 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 118247061D82170D008C0341 /* Project object */;
+}
